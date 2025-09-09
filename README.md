@@ -32,10 +32,10 @@ Tahmin: Kullanıcı tarafından girilen bir cümle, eğitilmiş model tarafında
 Modeli eğittikten sonra, LSTM.py dosyasındaki predict_next_Word fonksiyonunu kullanarak metin tamamlama yapabilirsiniz.
 Python
 from LSTM import predict_next_Word
-# Başlangıç metnini ve kaç kelime tamamlanacağını belirtin
+### Başlangıç metnini ve kaç kelime tamamlanacağını belirtin
 send_text = "Sabah yürüyüşünde"
 print(predict_next_Word(send_text, 7))
-# Daha Sonrasında ise modeli eğitip Sonucu Görün
+### Daha Sonrasında ise modeli eğitip Sonucu Görün
 Sonuç : Sabah Yürüyüşünde biraz geç kaldım çünkü otobüs çok kalabalıktı.
 
 ## Projeyi daha da geliştirmek için aşağıdaki adımlar atılabilir:
