@@ -9,10 +9,9 @@ Bu proje, LSTM (Long Short-Term Memory) tabanlı bir dil modeli ile verilen bir 
 - Pandas  
 
 ## Veri Seti
-Model, `Text_LSTM.csv` dosyasındaki metinlerle eğitilir.  
+Model, `LSTM.csv` dosyasındaki metinlerle eğitilir.  
 CSV dosyasında bir sütun (`Text`) bulunmalı ve her satırda bir cümle olmalıdır.
 
 ## Kurulum
 ```bash
 pip install -r requirements.txt
-
