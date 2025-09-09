@@ -51,6 +51,7 @@ print(predict_next_Word(send_text, 7))
 
 ### Daha Sonrasında ise modeli eğitip Sonucu Görün
 
+
 Sonuç : Sabah Yürüyüşünde biraz geç kaldım çünkü otobüs çok kalabalıktı.
 
 ## Projeyi daha da geliştirmek için aşağıdaki adımlar atılabilir:
